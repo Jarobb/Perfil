@@ -6,13 +6,29 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("Sou o João");
+        System.out.println("Esse é o Screen Match");
+        System.out.println("Filme: Top Gun: Maverick");
 
-        System.out.println("Tudo bem?");
+        int anoDeLancamento = 2022;
+        System.out.println("Ano de lançamento:" + anoDeLancamento);
+        boolean incluidoNoPlano= true;
+        double notaDofilme = 8.1;
 
-        System.out.println(10+5);
+        double media = (9.8 + 6.3 + 8.1)/3;
+        System.out.println(media);
+        String sinopse;
+        sinopse = """
+                Filme Top Gun
+                Filme de aventura com galã dos anos 80
+                Muito bom!
+                ano de lançamento
+                """ + anoDeLancamento;
+        System.out.println(sinopse);
 
-        System.out.println(10-5);
+        int classificacao;
+        classificacao = (int) (media / 2);
+        System.out.println(classificacao);
+
 
     }
 }
